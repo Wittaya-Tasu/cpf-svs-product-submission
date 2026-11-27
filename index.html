@@ -23,36 +23,40 @@
     @media(max-width:900px){.wrap{width:calc(100% - 40px)}.hero-grid{grid-template-columns:minmax(0,1fr) 330px;gap:28px}.hero{padding-top:38px}.nav{gap:18px}.nav .nav-cta{display:none}.process li{padding:19px 16px}.topics li{padding:20px 18px}.action-card{padding:25px}.contact-card{padding:22px;gap:13px}}
     @media(max-width:700px){html{font-size:25px}.wrap{width:calc(100% - 36px)}.topbar .wrap{min-height:72px}.brand{font-size:.96rem;gap:10px}.brand-mark{width:38px;height:38px}.brand small{font-size:.75rem}.nav{display:none}.hero{padding:28px 0 26px}.hero-grid{grid-template-columns:1fr;gap:25px}.eyebrow{margin-bottom:12px;font-size:.9rem}h1{font-size:2.25rem;line-height:1.08;letter-spacing:-.01em;margin-bottom:14px}.intro{font-size:1.08rem;line-height:1.35}.hero-footnote{margin-top:17px;gap:7px 18px;font-size:.85rem}.action-card{padding:23px;border-radius:18px}.form-icon{display:none}.action-card h2{font-size:1.35rem;margin-bottom:6px}.action-card p{font-size:.96rem;margin-bottom:15px}.primary{min-height:56px;font-size:1.1rem}.action-card .subtext{font-size:.8rem;margin-top:9px}main{padding-top:24px;padding-bottom:30px}.process{grid-template-columns:1fr;margin-bottom:32px}.process li{padding:15px 19px;gap:12px}.process li+li{border-left:0;border-top:1px solid var(--line)}.step-icon{height:35px;width:35px}.process strong{font-size:1.02rem}.process small{font-size:.86rem}.section-head{margin-bottom:17px;align-items:center}.section-head h2{font-size:1.55rem}.section-head p{font-size:.95rem;margin-top:4px}.section-head .tag{font-size:.8rem;padding:4px 10px}.section-kicker{font-size:.82rem}.topics{grid-template-columns:1fr;border-radius:16px}.topics li{padding:17px 18px 17px 74px;min-height:90px;border-right:0!important;border-bottom:1px solid var(--line)!important}.topics li:last-child{border-bottom:0!important}.topic-label{position:absolute;left:18px;top:21px;font-size:.85rem}.topics h3{font-size:1.12rem;margin-bottom:4px}.topics p{font-size:.95rem}.notice{padding:17px;gap:11px}.notice p{font-size:1rem}.notice small{font-size:.88rem}.contacts{margin-top:32px}.contact-grid{grid-template-columns:1fr;gap:13px}.contact-card{padding:21px;gap:15px}.contact-card h3{font-size:1.23rem}.contact-card .nickname{margin-bottom:12px}.avatar{width:44px;height:44px}.contact-links a{font-size:1rem}.footer-inner{align-items:flex-start;flex-direction:column;gap:6px;font-size:.84rem}footer{padding-bottom:110px}.mobile-bar{display:block;position:fixed;z-index:20;bottom:0;left:0;right:0;padding:11px 18px calc(11px + env(safe-area-inset-bottom));background:#ffffffef;border-top:1px solid var(--line);backdrop-filter:blur(10px)}.mobile-bar .primary{background:var(--green);border-color:var(--green);color:white;min-height:52px;box-shadow:0 4px 15px #12634424}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.primary{transition:none}}
+
+    /* Department identity and concise instructions */
+    .brand-logo{display:block;width:112px;height:62px;object-fit:contain;flex-shrink:0}.brand{gap:16px;font-size:1.08rem;line-height:1.15}.brand span{max-width:290px}.topbar .wrap{min-height:92px}.hero{padding:46px 0}.action-card h2{margin-bottom:22px}.process-title{font-size:1.8rem;line-height:1.15;margin:0 0 18px}.account-emphasis{font-weight:700;color:#17466b;background:#dceaf7;border-radius:5px;padding:0 4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+    @media(max-width:900px){.brand{font-size:.98rem;gap:12px}.brand-logo{width:95px;height:54px}.brand span{max-width:245px}}
+    @media(max-width:700px){.topbar .wrap{min-height:85px}.brand{font-size:1.02rem;gap:12px}.brand span{max-width:230px}.brand-logo{width:80px;height:52px}.hero{padding:28px 0}.hero-grid{gap:22px}.action-card h2{margin-bottom:17px}.process-title{font-size:1.55rem;margin-bottom:15px}}
   </style>
 </head>
 <body>
 <a class="skip" href="#main">ข้ามไปเนื้อหาหลัก</a>
 <header class="topbar"><div class="wrap">
-  <a class="brand" href="#" aria-label="หน้าหลัก การยื่นเสนอเวชภัณฑ์"><span class="brand-mark" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3h7l4 4v14H6V3h1Z"/><path d="M14 3v5h5M9 12h6M9 16h6"/></svg></span><span>การยื่นเสนอเวชภัณฑ์<small>เพื่อพิจารณาเข้าลิสต์</small></span></a>
+  <a class="brand" href="#" aria-label="สัตวแพทย์บริการวิชาการสุกร หน้าหลัก"><img class="brand-logo" src="svs-logo.png" alt="โลโก้ SVS" width="112" height="62"><span>สัตวแพทย์บริการวิชาการสุกร</span></a>
   <nav class="nav" aria-label="เมนูหลัก"><a href="#prepare">เตรียมข้อมูล</a><a href="#contact">ติดต่อสอบถาม</a><a class="nav-cta form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSddXzxUraMwWmP4_UJf-WmZEPs3HuYgW5_Zyg0ngYDkxBTQbQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">เปิด Google Form</a></nav>
 </div></header>
 <section class="hero" aria-labelledby="page-title"><div class="wrap hero-grid">
   <div><div class="eyebrow">สำหรับบริษัทผู้ยื่นเสนอผลิตภัณฑ์</div>
     <h1 id="page-title" aria-label="ลิงค์ยื่นเสนอเวชภัณฑ์เพื่อพิจารณาเข้าลิสต์">ยื่นเสนอเวชภัณฑ์<br><span>เพื่อพิจารณาเข้าลิสต์</span></h1>
-    <p class="intro">เตรียมข้อมูลผลิตภัณฑ์และเอกสารประกอบให้พร้อม<br class="desktop-break"> แล้วเริ่มกรอกข้อมูลผ่าน Google Form ได้จากหน้านี้</p>
-    <div class="hero-footnote"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M8 21h8M12 18v3"/></svg>ใช้งานได้ทั้งคอมพิวเตอร์และมือถือ</span></div>
+
   </div>
   <aside class="action-card" aria-labelledby="form-title">
     <span class="form-icon" aria-hidden="true"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
-    <h2 id="form-title">พร้อมยื่นเสนอผลิตภัณฑ์แล้ว?</h2>
-    <p>กดปุ่มด้านล่าง เพื่อเปิดแบบฟอร์ม<br>และกรอกข้อมูลผลิตภัณฑ์ให้ครบถ้วน</p>
+    <h2 id="form-title">ยื่นเสนอผลิตภัณฑ์</h2>
     <a class="primary form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSddXzxUraMwWmP4_UJf-WmZEPs3HuYgW5_Zyg0ngYDkxBTQbQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">เริ่มกรอกข้อมูลผลิตภัณฑ์</a>
     <p class="subtext">เปิด Google Form ในแท็บใหม่</p>
   </aside>
 </div></section>
 <main id="main" class="wrap">
+  <h2 class="process-title">ขั้นตอนโดยรวม</h2>
   <ol class="process" aria-label="ขั้นตอนการยื่นเสนอ">
     <li><span class="step-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 4 20 10M4 20l4-1L20 7l-3-3L5 16l-1 4Z"/></svg></span><div><strong>กรอกข้อมูล</strong><small>พร้อมแนบเอกสารประกอบ</small></div></li>
     <li><span class="step-icon" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><strong>รอคณะกรรมการพิจารณา</strong><small>ตามกระบวนการคัดเลือกเวชภัณฑ์</small></div></li>
     <li><span class="step-icon" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span><div><strong>รออีเมล์ติดต่อแจ้งผล</strong><small>ผ่านอีเมล์ที่ระบุในแบบฟอร์ม</small></div></li>
   </ol>
   <section id="prepare" aria-labelledby="prepare-title">
-    <div class="section-head"><div><div class="section-kicker">ก่อนเริ่มกรอกแบบฟอร์ม</div><h2 id="prepare-title">ข้อมูลที่ควรเตรียมให้พร้อม</h2><p>หัวข้อทั้ง 9 ส่วนใน Google Form</p></div><span class="tag">9 ส่วน</span></div>
+    <div class="section-head"><div><h2 id="prepare-title">ข้อมูลที่ควรเตรียมให้พร้อม</h2><p>หัวข้อทั้ง 9 ส่วนใน Google Form</p></div><span class="tag">9 ส่วน</span></div>
     <ol class="topics">
       <li><span class="topic-label">ส่วนที่ 1</span><h3>แนะนำหัวข้อของแบบฟอร์ม</h3><p>อ่านภาพรวมและคำแนะนำการยื่นเสนอ</p></li>
       <li><span class="topic-label">ส่วนที่ 2</span><h3>ข้อมูลผลิตภัณฑ์</h3><p>ชื่อผลิตภัณฑ์ บริษัท ประเภท และรูปภาพ</p></li>
@@ -64,10 +68,10 @@
       <li><span class="topic-label">ส่วนที่ 8</span><h3>ข้อบ่งใช้หลักและสรรพคุณหลัก</h3><p>สรรพคุณสำคัญและกลุ่มสุกรที่ใช้ได้</p></li>
       <li><span class="topic-label">ส่วนที่ 9</span><h3>ขนาดและวิธีการใช้</h3><p>โด๊ส อัตราผสม วิธีให้ ระยะเวลา และข้อห้าม</p></li>
     </ol>
-    <div class="notice"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg><div><p><strong>เตรียมบัญชี Gmail ก่อนแนบไฟล์</strong><br>ลงชื่อเข้าใช้บัญชี Gmail ใน Google Chrome เพื่อกรอกแบบฟอร์มและแนบไฟล์</p><small>เตรียมรูปภาพผลิตภัณฑ์และไฟล์เอกสารไว้ในอุปกรณ์ที่ใช้กรอกข้อมูล</small></div></div>
+    <div class="notice"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg><div><p><strong>เตรียมบัญชี Gmail ก่อนแนบไฟล์</strong><br>ลงชื่อเข้าใช้บัญชี <strong class="account-emphasis">Gmail ใน Google Chrome</strong> เพื่อกรอกแบบฟอร์มและแนบไฟล์</p></div></div>
   </section>
   <section id="contact" class="contacts" aria-labelledby="contact-title">
-    <div class="section-head"><div><div class="section-kicker">ต้องการความช่วยเหลือ?</div><h2 id="contact-title">ติดต่อผู้ประสานงาน</h2></div></div>
+    <div class="section-head"><div><h2 id="contact-title">ติดต่อผู้ประสานงาน</h2></div></div>
     <div class="contact-grid">
       <article class="contact-card"><span class="avatar" aria-hidden="true"><svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></span><div class="contact-body"><h3>น.สพ.พิทักษ์พงค์</h3><p class="nickname">หมอเอ้ · ผู้ประสานงาน</p><div class="contact-links"><a href="tel:+66817152036"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m7 3 3 5-3 2c2 4 3 5 7 7l2-3 5 3c-1 5-4 5-8 3C7 17 4 14 2 8 1 5 3 3 7 3Z"/></svg>081-715-2036</a><a href="mailto:pitakpong@cpf.co.th"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>pitakpong@cpf.co.th</a></div></div></article>
       <article class="contact-card"><span class="avatar" aria-hidden="true"><svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></span><div class="contact-body"><h3>น.สพ.วิทยา</h3><p class="nickname">หมอโย · ผู้ประสานงาน</p><div class="contact-links"><a href="tel:+66959611551"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m7 3 3 5-3 2c2 4 3 5 7 7l2-3 5 3c-1 5-4 5-8 3C7 17 4 14 2 8 1 5 3 3 7 3Z"/></svg>095-961-1551</a><a href="mailto:wittaya.tas@cpf.co.th"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>wittaya.tas@cpf.co.th</a></div></div></article>
@@ -78,3 +82,4 @@
 <div class="mobile-bar"><a class="primary form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSddXzxUraMwWmP4_UJf-WmZEPs3HuYgW5_Zyg0ngYDkxBTQbQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">เริ่มกรอกข้อมูลผลิตภัณฑ์</a></div>
 </body>
 </html>
+
